@@ -1,0 +1,73 @@
+Label,Type,micmac exposure,micmac influence
+"""Cleaner"" Energy",State Change,0.8425245895465161,0.7108046794717505
+Accidents or Collisions at Sea/Obstacles,State Change,0.5728637041755136,0.7156382299608909
+Advocacy and Division,Impact to Ecosystem Services,0.5950682985434395,0.6803563976630101
+aesthetics,Impact to Ecosystem Services,0.8645922135187567,0.34924419854693656
+At Sea (Human) Navigation,Impact to Ecosystem Services,0.27585820569142006,0.4926288371455954
+Avian Distribution and Wellbeing,Impact to Ecosystem Services,0.5000350262996971,0.5647019188913659
+Benthic Modification,Pressure,0.42097825631233976,0.6919901785989564
+biodiversity,Impact to Ecosystem Services,0.7069714454444711,0.6153023204475943
+Borrowing from Previous ONG/OSW Examples,Management or Policy Response,0.22660698414196725,0.8017552458517411
+Cables,Pressure,0.8460349187505384,0.5547943961282779
+commercial fishery sector status,State Change,0.7493725351531964,0.7370329234994755
+Communication and Transparency,Management or Policy Response,0.3949360263943845,0.5082602140951841
+community wellbeing,Impact to Ecosystem Services,0.8784076315658262,0.5249015188116225
+Contaminants/Unknown materials,State Change,0.6407611964969849,0.7040300297743297
+Data/Knowledge about OSW,Pressure,0.3390334987983013,0.7164806314603148
+Decommissioning Plans,Management or Policy Response,0,0.582148769871811
+Diversity of Energy Production,State Change,0.21565386829243186,0.5572163994548548
+EMF,State Change,0.8003027470218438,0.8785414279149544
+Energy Availability and Reliability,Pressure,0.5598053848239006,0.9813742821200047
+energy security,Impact to Ecosystem Services,0.0588997430119604,0.7858695253492369
+Enforcement,Management or Policy Response,1,0.6250024966520541
+Financial/Community Incentives,Management or Policy Response,0.7297812307566622,0.4859306700431994
+Fish and other Faunal Wellbeing,Impact to Ecosystem Services,0.3177099297204768,0.48612638751015713
+Fish Recruitment/Connectivity,Impact to Ecosystem Services,0.887729342095435,0.07907312569835107
+Fishing Locations,Impact to Ecosystem Services,0.6964779210655667,0.6407941594368287
+hard substrates,State Change,0.7901520526254959,0.9121573616718024
+Human Health/Wellbeing,Impact to Ecosystem Services,0.43625406754528145,0.5878686158244879
+Hydrodynamics and Physical/Chemical Interface,State Change,0.6632387189516457,0.5385588835137745
+Increased Investment,Management or Policy Response,0.5988678469899313,0.3615442782274989
+Knowledge Generation,Impact to Ecosystem Services,0.25121510085906607,0.869732676746872
+Knowledge/Rhetoric,Driver,0.4051765153417226,0.6756824069891508
+Land use Change and land/sea connectivity,State Change,0.35375217011172444,0.46124236551491654
+Livelihood,Pressure,0.5255097232050048,0.4330775629683702
+Media/Narratives,Pressure,0.468334133996809,0.578928685073607
+Monitoring,Management or Policy Response,0.34869795690391797,0.6004573286263478
+MSP/Spatial Management,Management or Policy Response,0.36121299435616766,0.9525522393459734
+Noise/Vibrations,State Change,0.8707323797040609,0.778295231490698
+Ocean Heat,State Change,0.7674408009402708,0.7955702606842668
+ONG Industry in the Gulf,Driver,0.7214908358017866,1
+Operational Costs/Appetite to Develop,State Change,0.32194587639241395,0.7237624857014756
+Operational Restrictions,Management or Policy Response,0.1991372041377702,0.4206385291072024
+OSW and ONG Jobs,State Change,0.7410118105372034,0.6307800403687631
+OSW Construction,Driver,0.4992437478868394,0.4759345147140183
+OSW Decommissioning,Driver,0.487867934246802,0.6075556756467119
+OSW Maintainence,Pressure,0.14024975365958656,0.5073990067839054
+OSW Operation,Driver,0.7647739098587589,0.37134280635249123
+Perception of Ecosystem Health,State Change,0.4027632084051293,0.5308082349590895
+Physical Footprint of OSW,Pressure,0.8926709859453594,0.6091969994082843
+Political Environment,Driver,0.650040278820174,0.8401080767036632
+Predation/Food Availability,Impact to Ecosystem Services,0.9288575541135959,0.29128285946808596
+Private OSW Developer Interests,Pressure,0.3178962832358413,0.3833804694308503
+Proactive Stakeholder Engagement,Management or Policy Response,0.09545137167092954,0.29100643739661725
+Promoting Environmental and Social Justice,Management or Policy Response,0.443978503630038,0.7667739980034595
+Protected Species Distribution and Wellbeing,Impact to Ecosystem Services,0.5881259556143099,0.39271119835417684
+Recreational Activities,Impact to Ecosystem Services,0.0926829840704885,0.6160345946501573
+recreational fishing sector status,State Change,0.57674378260379,0
+Science/Policy Collaboration,Management or Policy Response,0.6636696368170063,0.5340967609367672
+Sense of Place/Identity,Impact to Ecosystem Services,0.6625426843093628,0.5705747076510864
+Sensitive Habitats,Impact to Ecosystem Services,0.2674836544121756,0.5924897592634002
+Shoreline Modification,Pressure,0.6567480115174266,0.5337035157323483
+Social Conditions,Driver,0.21202479045124692,0.6817311570752274
+Species Mvmt Ecology and Dist,State Change,0.6576347633485201,0.21090332513290194
+Timing and Scale,Management or Policy Response,0.47408410755514335,0.31136832282862115
+Trophic Impacts,State Change,0.7806944062399761,0.5426145678227524
+Trust/Distrust in Development Process,Pressure,0.7387306012546642,0.6762671523020555
+Turbine and Cable Design,Management or Policy Response,0.6087193335525729,0.5039114694807163
+Vessel Traffic,Pressure,0.24541686179822692,0.5539477232878378
+Viability of OSW in the GoM,Impact to Ecosystem Services,0.2622072010653734,0.603156320353776
+Viewshed,State Change,0.6377520088248831,0.7080828012488372
+water dependent population,State Change,0.5827700656873178,0.26551804564681075
+wind field patterns,State Change,0.3943313800085194,0.797797585361599
+Workforce Development,Management or Policy Response,0.6829549804791294,0.4193802727629178
