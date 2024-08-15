@@ -83,7 +83,14 @@ body:
     attributes:
       label: Found In
       description: "Where have other versions of this indicator been reported previousy?"
+<<<<<<< HEAD
 
+=======
+      value: |
+        e.g. ESRs, condition reports, etc.
+      render: bash
+        
+>>>>>>> 6f22ad897bfbbb35028f4cc6e49a985886d7ace1
   - type: dropdown
     id: public_availability
     attributes:
