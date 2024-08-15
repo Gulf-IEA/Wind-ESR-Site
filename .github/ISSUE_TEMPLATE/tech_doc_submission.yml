@@ -83,8 +83,9 @@ body:
     attributes:
       label: Found In
       description: "Where have other versions of this indicator been reported previousy?"
-      value:
-        - e.g. ESRs, condition reports, etc.
+      value: |
+        e.g. ESRs, condition reports, etc.
+      render: bash
         
   - type: dropdown
     id: public_availability
@@ -126,7 +127,8 @@ body:
       description: "Are there any known data limitations or caveats associated with this data source?"
       value: |
         Change in data collection/sampling, NEED MORE EXAMPLES
-      
+    render: bash
+    
   - type: textarea
     id: references
     attributes:
