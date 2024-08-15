@@ -39,7 +39,7 @@ body:
         description: "Please provide the email for the recommened SME."
         placeholder: "sme_email@noaa.gov"
         
-  - type: checkbox
+  - type: checkboxes
     id: indicator_family
     attributes:
       label: Indicator Family
@@ -103,7 +103,7 @@ body:
       description: "Is there an associated verision identifier associated with this data source?"
       placeholder: "Version"
       
-  - type: checkbox
+  - type: checkboxes
     id: manual_effort
     attributes:
       label: Manual Effort Required
