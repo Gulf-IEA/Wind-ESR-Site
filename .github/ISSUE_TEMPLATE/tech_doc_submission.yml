@@ -83,8 +83,8 @@ body:
     attributes:
       label: Found In
       description: "Where have other versions of this indicator been reported previousy?"
-      value: |
-        e.g. ESRs, condition reports, etc.
+      value:
+        - e.g. ESRs, condition reports, etc.
         
   - type: dropdown
     id: public_availability
@@ -108,7 +108,6 @@ body:
     attributes:
       label: Manual Effort Required
       description: "How easily accessible is the data to access?"
-      multiple: false
       options:
         - API (Direct Download in correct format)
         - Medium (Download with some data modification, PDF scrape)
