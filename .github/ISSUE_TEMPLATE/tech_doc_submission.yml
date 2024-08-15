@@ -1,0 +1,68 @@
+name: Technical Document Entry
+description: Use this issue template to submit information about indicators for the technical document for the Offshore Wind ESR.
+title: "[Tech_Doc_Entry]: "
+labels: ["Tech_Doc_Entry"]
+assignees: []
+body:
+  - type: input
+    id: submitter_name
+    attributes:
+      label: Submitter Name
+      description: "Please provide your name here."
+      placeholder: "Jane Doe"
+      
+  - type: input
+    id: submitter_email
+    attributes: 
+      label: Submitter E-mail Address
+      description: "Please provide your email below."
+      placeholder: "youremail@noaa.gov"
+      
+  - type: input
+    id: data_poc
+    attributes:
+        label: Data Provider POC
+        description: "Please provide the name of the data provider (person or monitoring program)."
+        placeholder: "Data Provider Name"
+        
+  - type: checkbox
+    id: indicator_family
+    attributes:
+      label: Indicator Family
+      description: "Which indicator family is this data associated with? Please check all that may apply."
+      options:
+        - label: Biological
+        - label: Physical/Chemical
+        - label: Human Dimensions
+
+  - type: dropdown
+    id: indicator_name
+    attributes:
+      label: "Please select the indicator name."
+      options:
+        - Avian Distribution and Wellbeing
+        - Benthic Modification                                            
+        - Commercial Fishing                                              
+        - Community / Water Dependent Population Economic Wellbeing       
+        - Contaminants                                                    
+        - EMF                                                             
+        - Energy Security / Proportion of Energy Supplied by Clean Sources
+        - Fishing Opportunity and Accessibility                           
+        - Footprint/Hazards/Space Occupied in Water                       
+        - Marine Recreational Activities (inc. Rec Fishing and Diving)    
+        - Media / Narratives                                              
+        - Noise                                                           
+        - Other Faunal (Bat, Insect, etc.) Wellbeing                      
+        - Perception of Ecosystem Health                                  
+        - Protected Species Distribution and Wellbeing                    
+        - Reef Fish,Fish Recruitment                                      
+        - Sense of Place                                                  
+        - Sensitive Habitat Modification                                  
+        - Sustainability / Maintenance of OSW Infrastructure              
+        - Trophic Impacts                                                 
+        - Trust in/ Knowledge of OSW Development Process                  
+        - Workforce Development
+        - Other
+        
+  - type: 
+  
