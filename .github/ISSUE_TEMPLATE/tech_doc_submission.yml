@@ -77,8 +77,7 @@ body:
         - Trust in/ Knowledge of OSW Development Process                  
         - Workforce Development
         - Other
-      default: 0
-        
+
   - type: textarea
     id: found_in
     attributes:
@@ -96,8 +95,7 @@ body:
       options:
         - Source data are publicly available.
         - Source data are NOT publicly available.
-      default: 0
-        
+
   - type: input
     id: data_version
     attributes: 
@@ -114,7 +112,6 @@ body:
         - API (Direct Download in correct format)
         - Medium (Download with some data modification, PDF scrape)
         - High (Indirect Access)
-      default: 0
 
   - type: textarea
     id: data_resolution
