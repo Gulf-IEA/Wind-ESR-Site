@@ -122,10 +122,7 @@ body:
     attributes:
       label: Data Limitations & Caveats
       description: "Are there any known data limitations or caveats associated with this data source?"
-      value: |
-        Change in data collection/sampling, NEED MORE EXAMPLES
-    render: bash
-    
+
   - type: textarea
     id: references
     attributes:
