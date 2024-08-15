@@ -1,0 +1,131 @@
+name: Technical Document Entry
+description: Use this issue template to submit information about indicators for the technical document for the Offshore Wind ESR.
+title: "[Tech_Doc_Entry]: "
+labels: ["Tech_Doc_Entry"]
+assignees: []
+body:
+  - type: input
+    id: submitter_name
+    attributes:
+      label: Submitter Name
+      description: "Please provide your name here."
+      placeholder: "Jane Doe"
+      
+  - type: input
+    id: submitter_email
+    attributes: 
+      label: Submitter E-mail
+      description: "Please provide your email below."
+      placeholder: "youremail@noaa.gov"
+      
+  - type: input
+    id: data_poc
+    attributes:
+        label: Data Provider POC
+        description: "Please provide the name of the data provider (person or monitoring program)."
+        placeholder: "Data Provider Name"
+
+  - type: input
+    id: sme_poc
+    attributes: 
+        label: Subject Matter Expert POC
+        description: "Please recommend a subject matter expert in this data type."
+        placeholder: "SME Name"
+        
+  - type: input
+    id: sme_email
+    attributes: 
+        label: Subject Matter Expert E-mail
+        description: "Please provide the email for the recommened SME."
+        placeholder: "sme_email@noaa.gov"
+        
+  - type: checkboxes
+    id: indicator_family
+    attributes:
+      label: Indicator Family
+      description: "Which indicator family is this data associated with? Please check all that may apply."
+      options:
+        - label: Biological
+        - label: Physical/Chemical
+        - label: Human Dimensions
+
+  - type: dropdown
+    id: indicator_name
+    attributes:
+      label: "Please select the indicator name."
+      options:
+        - label: Avian Distribution and Wellbeing
+        - label: Benthic Modification                                            
+        - label: Commercial Fishing                                              
+        - label: Community / Water Dependent Population Economic Wellbeing       
+        - label: Contaminants                                                    
+        - label: EMF                                                             
+        - label: Energy Security / Proportion of Energy Supplied by Clean Sources
+        - label: Fishing Opportunity and Accessibility                           
+        - label: Footprint/Hazards/Space Occupied in Water                       
+        - label: Marine Recreational Activities (inc. Rec Fishing and Diving)    
+        - label: Media / Narratives                                              
+        - label: Noise                                                           
+        - label: Other Faunal (Bat, Insect, etc.) Wellbeing                      
+        - label: Perception of Ecosystem Health                                  
+        - label: Protected Species Distribution and Wellbeing                    
+        - label: Reef Fish,Fish Recruitment                                      
+        - label: Sense of Place                                                  
+        - label: Sensitive Habitat Modification                                  
+        - label: Sustainability / Maintenance of OSW Infrastructure              
+        - label: Trophic Impacts                                                 
+        - label: Trust in/ Knowledge of OSW Development Process                  
+        - label: Workforce Development
+        - label: Other
+
+  - type: textarea
+    id: found_in
+    attributes:
+      label: Found In
+      description: "Where have other versions of this indicator been reported previousy?"
+
+  - type: dropdown
+    id: public_availability
+    attributes:
+      label: Public Availability
+      description: "State public availability of source data for this indicator."
+      multiple: false
+      options:
+        - label: Source data are publicly available.
+        - label: Source data are NOT publicly available.
+
+  - type: input
+    id: data_version
+    attributes: 
+      label: Data Version
+      description: "Is there an associated verision identifier associated with this data source?"
+      placeholder: "Version"
+      
+  - type: checkboxes
+    id: manual_effort
+    attributes:
+      label: Manual Effort Required
+      description: "How easily accessible is the data to access?"
+      options:
+        - label: API (Direct Download in correct format)
+        - label: Medium (Download with some data modification, PDF scrape)
+        - label: High (Indirect Access)
+
+  - type: textarea
+    id: data_resolution
+    attributes:
+      label: Data Resolution
+      description: "Please provide a description of the spatial and temporal scale of the data source."
+      
+  - type: textarea
+    id: limitations_caveats
+    attributes:
+      label: Data Limitations & Caveats
+      description: "Are there any known data limitations or caveats associated with this data source?"
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Data Use Examples
+      description: "Please link or attach any papers or references utilizing or explaining this data source."
+      
