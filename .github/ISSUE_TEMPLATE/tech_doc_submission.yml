@@ -107,9 +107,9 @@ body:
       label: Manual Effort Required
       description: "How easily accessible is the data to access?"
       options:
-        - API (Direct Download in correct format)
-        - Medium (Download with some data modification, PDF scrape)
-        - High (Indirect Access)
+        - label: API (Direct Download in correct format)
+        - label: Medium (Download with some data modification, PDF scrape)
+        - label: High (Indirect Access)
 
   - type: textarea
     id: data_resolution
