@@ -14,7 +14,7 @@ body:
   - type: input
     id: submitter_email
     attributes: 
-      label: Submitter E-mail Address
+      label: Submitter E-mail
       description: "Please provide your email below."
       placeholder: "youremail@noaa.gov"
       
@@ -24,6 +24,20 @@ body:
         label: Data Provider POC
         description: "Please provide the name of the data provider (person or monitoring program)."
         placeholder: "Data Provider Name"
+
+  - type: input
+    id: sme_poc
+    attributes: 
+        label: Subject Matter Expert POC
+        description: "Please recommend a subject matter expert in this data type."
+        placeholder: "SME Name"
+        
+  - type: input
+    id: sme_email
+    attributes: 
+        label: Subject Matter Expert E-mail
+        description: "Please provide the email for the recommened SME."
+        placeholder: "sme_email@noaa.gov"
         
   - type: checkbox
     id: indicator_family
@@ -64,5 +78,59 @@ body:
         - Workforce Development
         - Other
         
-  - type: 
-  
+  - type: textarea
+    id: found_in
+    attributes:
+      label: Found In
+      description: "Where have other versions of this indicator been reported previousy?"
+      value: |
+        e.g. ESRs, condition reports, etc.
+        
+  - type: dropdown
+    id: public_availability
+    attributes:
+      label: Public Availability
+      description: "State public availability of source data for this indicator."
+      multiple: false
+      options:
+        - Source data are publicly available.
+        - Source data are NOT publicly available.
+        
+  - type: input
+    id: data_version
+    attributes: 
+      label: Data Version
+      description: "Is there an associated verision identifier associated with this data source?"
+      placeholder: "Version"
+      
+  - type: checkbox
+    id: manual_effort
+    attributes:
+      label: Manual Effort Required
+      description: "How easily accessible is the data to access?"
+      multiple: false
+      options:
+        - API (Direct Download in correct format)
+        - Medium (Download with some data modification, PDF scrape)
+        - High (Indirect Access)
+
+  - type: textarea
+    id: data_resolution
+    attributes:
+      label: Data Resolution
+      description: "Please provide a description of the spatial and temporal scale of the data source."
+      
+  - type: textarea
+    id: limitations_caveats
+    attributes:
+      label: Data Limitations & Caveats
+      description: "Are there any known data limitations or caveats associated with this data source?"
+      value: |
+        Change in data collection/sampling, NEED MORE EXAMPLES
+      
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Data Use Examples
+      description: "Please link or attach any papers or references utilizing or explaining this data source."
+      
