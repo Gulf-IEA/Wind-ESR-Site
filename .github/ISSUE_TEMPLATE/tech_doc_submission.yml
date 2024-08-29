@@ -96,11 +96,11 @@ body:
         - Source data are NOT publicly available.
 
   - type: input
-      id: data_link
-      attributes: 
-        label: Data Link
-        description: "Provide a Direct Link to the Data, if available."
-        placeholder: "url"
+    id: data_link
+    attributes: 
+      label: Data Link
+      description: "Provide a Direct Link to the Data, if available."
+      placeholder: "url"
       
   - type: input
     id: data_version
