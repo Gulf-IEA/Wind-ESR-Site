@@ -36,7 +36,7 @@ body:
     id: sme_email
     attributes: 
         label: Subject Matter Expert E-mail
-        description: "Please provide the email for the recommened SME."
+        description: "Please provide the email for the recommended SME."
         placeholder: "sme_email@noaa.gov"
         
   - type: checkboxes
@@ -54,35 +54,35 @@ body:
     attributes:
       label: "Please select the indicator name."
       options:
-        - label: Avian Distribution and Wellbeing
-        - label: Benthic Modification                                            
-        - label: Commercial Fishing                                              
-        - label: Community / Water Dependent Population Economic Wellbeing       
-        - label: Contaminants                                                    
-        - label: EMF                                                             
-        - label: Energy Security / Proportion of Energy Supplied by Clean Sources
-        - label: Fishing Opportunity and Accessibility                           
-        - label: Footprint/Hazards/Space Occupied in Water                       
-        - label: Marine Recreational Activities (inc. Rec Fishing and Diving)    
-        - label: Media / Narratives                                              
-        - label: Noise                                                           
-        - label: Other Faunal (Bat, Insect, etc.) Wellbeing                      
-        - label: Perception of Ecosystem Health                                  
-        - label: Protected Species Distribution and Wellbeing                    
-        - label: Reef Fish,Fish Recruitment                                      
-        - label: Sense of Place                                                  
-        - label: Sensitive Habitat Modification                                  
-        - label: Sustainability / Maintenance of OSW Infrastructure              
-        - label: Trophic Impacts                                                 
-        - label: Trust in/ Knowledge of OSW Development Process                  
-        - label: Workforce Development
-        - label: Other
+        - Avian Distribution and Wellbeing
+        - Benthic Modification                                            
+        - Commercial Fishing                                              
+        - Community / Water Dependent Population Economic Wellbeing       
+        - Contaminants                                                    
+        - EMF                                                             
+        - Energy Security / Proportion of Energy Supplied by Clean Sources
+        - Fishing Opportunity and Accessibility                           
+        - Footprint/Hazards/Space Occupied in Water                       
+        - Marine Recreational Activities (inc. Rec Fishing and Diving)    
+        - Media / Narratives                                              
+        - Noise                                                           
+        - Other Faunal (Bat, Insect, etc.) Wellbeing                      
+        - Perception of Ecosystem Health                                  
+        - Protected Species Distribution and Wellbeing                    
+        - Reef Fish,Fish Recruitment                                      
+        - Sense of Place                                                  
+        - Sensitive Habitat Modification                                  
+        - Sustainability / Maintenance of OSW Infrastructure              
+        - Trophic Impacts                                                 
+        - Trust in/ Knowledge of OSW Development Process                  
+        - Workforce Development
+        - Other
 
   - type: textarea
     id: found_in
     attributes:
       label: Found In
-      description: "Where have other versions of this indicator been reported previousy?"
+      description: "Where have other versions of this indicator been reported previously?"
 
   - type: dropdown
     id: public_availability
@@ -91,8 +91,8 @@ body:
       description: "State public availability of source data for this indicator."
       multiple: false
       options:
-        - label: Source data are publicly available.
-        - label: Source data are NOT publicly available.
+        - Source data are publicly available.
+        - Source data are NOT publicly available.
 
   - type: input
     id: data_version
