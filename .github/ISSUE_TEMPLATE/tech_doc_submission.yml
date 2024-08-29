@@ -83,6 +83,7 @@ body:
     attributes:
       label: Found In
       description: "Where have other versions of this indicator been reported previously?"
+      placeholder: "ex: 2015 Gulf of Mexico IEA ESR, link:"
 
   - type: dropdown
     id: public_availability
@@ -94,6 +95,13 @@ body:
         - Source data are publicly available.
         - Source data are NOT publicly available.
 
+  - type: input
+      id: data_link
+      attributes: 
+        label: Data Link
+        description: "Provide a Direct Link to the Data, if available."
+        placeholder: "url"
+      
   - type: input
     id: data_version
     attributes: 
@@ -116,6 +124,7 @@ body:
     attributes:
       label: Data Resolution
       description: "Please provide a description of the spatial and temporal scale of the data source."
+      placeholder: "temporal - 2008-present, annual. spatial - entire US Northern Gulf of Mexico"
       
   - type: textarea
     id: limitations_caveats
@@ -128,4 +137,15 @@ body:
     attributes:
       label: References & Data Use Examples
       description: "Please link or attach any papers or references utilizing or explaining this data source."
-      
+
+  - type: textarea
+    id: methods
+    attributes:
+      label: OPTIONAL: Methods
+      description: "If known, please provide methods that will be used to process and analyze these data. This can be a code chunk or plain language description."
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Other Comments
+      description: "Please share any additional information about the data or your thoughts about this form here."
