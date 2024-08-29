@@ -141,7 +141,7 @@ body:
   - type: textarea
     id: methods
     attributes:
-      label: OPTIONAL: Methods
+      label: Methods
       description: "If known, please provide methods that will be used to process and analyze these data. This can be a code chunk or plain language description."
 
   - type: textarea
