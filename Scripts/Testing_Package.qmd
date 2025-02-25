@@ -1,0 +1,32 @@
+---
+title: "Testing_Package"
+format: html
+---
+
+Install Package
+```{r}
+library(IEAnalyzeR)
+library(readxl)
+```
+
+Load Data
+```{r}
+pam<-read_xlsx("../data/biological/BeakedPAM.xlsx",col_names = F)
+recfish<-read_xlsx("../data/humandimensions/RecFishing.xlsx", col_names = c("a","b","c"))
+blue_crab<-read.csv("../data/test_data/bluecrab_cat.csv", header = F)
+
+
+```
+
+Testing Package
+```{r}
+#Data Function
+blue_crab_df<-IEAnalyzeR::data_prep(blue_crab)
+IEAnalyzeR::data_prep(pam)
+recfish_df<-IEAnalyzeR::data_prep(recfish)
+
+
+#Plot Function
+IEAnalyzeR::plot_fn_obj(blue_crab_df, interactive = T)
+```
+
