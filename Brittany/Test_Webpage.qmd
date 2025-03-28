@@ -1,0 +1,98 @@
+---
+title: "Testing Website Features"
+execute: 
+  echo: false
+  warning: false
+format:
+  html:
+    page-layout: custom
+    css:
+      - main.css
+      - testing_background.css
+    include-before-body:
+      file: add_js.html
+
+
+---
+
+# Adding JavaScript Features
+
+We can add JS files by calling them in either an "=HTML" block in the body, by putting that code in an HTML file and calling on that file, or by putting the files or code to call the files in the Quarto YAML.
+
+```{=html}
+
+<!-- Load jQuery -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+<!-- Load GSAP (TweenLite) -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> -->
+
+<!-- Load Your Custom Script -->
+<!-- <script src="js/mouse_test.js"></script> -->
+<!-- <script src="js/new_color.js"></script> -->
+
+
+```
+
+
+
+# Random Plot
+
+Click to change the website background (JS new_color test)
+
+```{r, echo=F, message=F, warning=F, fig.align='center'}
+library(tidyverse)
+library(plotly)
+
+test<-data.frame(x=rnorm(30, mean = 4),
+           y=rnorm(30, mean=2),
+           cat=c(rep("cat", 15), rep("dog", 15)))
+
+test<-ggplot(test, aes(x,y, color=cat))+
+  geom_point()+
+  geom_line()
+
+test
+```
+
+
+
+### IEAnalyzeR Plot
+
+Example using the IEAnalyzeR interactive plot function
+```{r, }
+time<-c("ind", "unit", "extent", 1990:2025)
+vals<-c("Test Data", "Points", "Gulf Region", rnorm(26, 25, sd=1.5))
+
+test_df<-as.data.frame(cbind(time, vals))
+
+test_obj<-IEAnalyzeR::data_prep(test_df)
+
+IEAnalyzeR::plot_fn_obj(test_obj, interactive = T)
+
+```
+
+
+
+
+```{=html}
+    	<!-- Footer -->
+    	<footer id="footer">
+        <br>
+        <img src="images/NOAA Logo_fill.png" height="50" >
+        <img src="images/DoC Big_NoBG.png" height="50">
+        <ul class="copyright">
+    			<li>2021  &copy; <a href="https://www.noaa.gov" target="_blank">National Oceanic and Atmospheric Administration</a> A Project of the NOAA <a href="https://www.integratedecosystemassessment.noaa.gov" target="_blank">IEA</a> Program </li>
+    			<br>
+          <a href="https://www.commerce.gov/" target="_blank">U.S. Department of Commerce</a>
+          <br>
+          <br>
+          <h6>PHOTOS FROM THE FKIEA TEAM, THE FLORIDA KEYS NATIONAL MARINE SANCTUARY, AND THE NOAA FLICKR ACCOUNT <a href="https://www.flickr.com/photos/noaaphotolib/">Flickr</a></h6>
+        </ul>
+        <br/>
+    	</footer>
+  	</div>
+  </body>
+</html>
+```
+

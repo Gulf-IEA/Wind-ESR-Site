@@ -1,0 +1,47 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Test_Webpage\"\n",
+        "format:\n",
+        "  html: \n",
+        "    css: ref.css\n",
+        "---\n",
+        "\n",
+        "```{html}\n",
+        "    \t<!-- Footer -->\n",
+        "    \t<footer id=\"footer\">\n",
+        "        <br>\n",
+        "        <img src=\"images/NOAA Logo_fill.png\" height=\"50\" >\n",
+        "        <img src=\"images/DoC Big_NoBG.png\" height=\"50\">\n",
+        "        <ul class=\"copyright\">\n",
+        "    \t\t\t<li>2021  &copy; <a href=\"https://www.noaa.gov\" target=\"_blank\">National Oceanic and Atmospheric Administration</a> A Project of the NOAA <a href=\"https://www.integratedecosystemassessment.noaa.gov\" target=\"_blank\">IEA</a> Program </li> \n",
+        "    \t\t\t<br>\n",
+        "          <a href=\"https://www.commerce.gov/\" target=\"_blank\">U.S. Department of Commerce</a>\n",
+        "          <br>\n",
+        "          <br>\n",
+        "          <h6>PHOTOS FROM THE FKIEA TEAM, THE FLORIDA KEYS NATIONAL MARINE SANCTUARY, AND THE NOAA FLICKR ACCOUNT <a href=\"https://www.flickr.com/photos/noaaphotolib/\">Flickr</a></h6>\n",
+        "        </ul> \n",
+        "        <br/> \n",
+        "    \t</footer>\n",
+        "  \t</div>\n",
+        "  </body>\n",
+        "</html>\n",
+        "```"
+      ],
+      "id": "79c477e0"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

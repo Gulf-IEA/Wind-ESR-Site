@@ -1,0 +1,33 @@
+---
+title: "GGplot with Background Band"
+format:
+  html: 
+    page-layout: custom
+    css:
+      - testing_background.css
+---
+```{r, echo=F , fig.align='center'}
+# Example plot (ggplot)
+library(ggplot2)
+ggplot(mtcars, aes(x = mpg, y = wt)) +
+  geom_point() +
+  theme_minimal()
+
+
+```
+
+```{r, echo=FALSE}
+print("for craps sake")
+```
+
+```{r}
+time<-c("ind", "unit", "extent", 1990:2025)
+vals<-c("Test Data", "Points", "Gulf Region", rnorm(26, 25, sd=1.5))
+
+test_df<-as.data.frame(cbind(time, vals))
+
+test_obj<-IEAnalyzeR::data_prep(test_df)
+
+IEAnalyzeR::plot_fn_obj(test_obj, interactive = T)
+```
+

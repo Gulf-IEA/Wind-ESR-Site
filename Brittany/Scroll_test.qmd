@@ -1,0 +1,70 @@
+---
+title: "Scroll Animation Example"
+format: html
+include-in-header:
+  - text: |
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery.scrollex@0.2.1/jquery.scrollex.min.js"></script>
+      
+---
+
+```{r, class = "animate-on-scroll"}
+# Example R plot
+plot(1:10, 1:10, main = "Scroll me into view!")
+```
+
+
+```{r, class = "animate-on-scroll"}
+# Example R plot
+plot(1:10, 1:10, main = "Scroll me into view!")
+```
+
+
+
+```{r, class = "animate-on-scroll"}
+# Example R plot
+plot(1:10, 1:10, main = "Scroll me into view!")
+```
+
+
+
+```{r, class = "animate-on-scroll"}
+# Example R plot
+plot(1:10, 1:10, main = "Scroll me into view!")
+```
+
+
+
+```{r, class = "animate-on-scroll"}
+# Example R plot
+plot(1:10, 1:10, main = "Scroll me into view!")
+```
+
+
+
+```{r, class = "animate-on-scroll"}
+# Example R plot
+plot(1:10, 1:10, main = "Scroll me into view!")
+```
+
+```{=html}
+<script>
+  $(document).ready(function () {
+    // Apply scrollex to elements with the class 'animate-on-scroll'
+    $('.animate-on-scroll').scrollex({
+      top: '50%',   // Trigger when 50% of the element is in the viewport
+      bottom: '10%', // Stop when 10% of the element is in the viewport
+      enter: function () {
+        // Animation on enter (when element is in view)
+        $(this).animate({ opacity: 1 }, 1000); // Fade in
+        $(this).css('background-color', 'green'); // Change background color
+      },
+      leave: function () {
+        // Animation on leave (when element is out of view)
+        $(this).animate({ opacity: 0.25 }, 1000); // Fade out
+        $(this).css('background-color', 'white'); // Change background color back
+      }
+    });
+  });
+</script>
+```

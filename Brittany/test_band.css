@@ -1,0 +1,26 @@
+/* Apply background color to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+/* Background block that spans the entire width */
+.bg-block {
+    background-color: #ffcc00;  /* Background color of the block */
+    width: 100%;                /* Full width of the screen */
+    padding: 20px 0;            /* Some padding around the content */
+    text-align: center;         /* Center the content */
+}
+
+/* Restrict the plot to 50% of the screen width */
+.bg-block .plot-container {
+    width: 50%;                 /* Plot will be 50% of the screen width */
+    margin: 0 auto;             /* Center the plot */
+}
+
+/* Ensure the plot itself takes the full width of its container */
+.bg-block .plot-container .ggplot {
+    width: 100%;                /* Plot takes full width of the 50% container */
+}

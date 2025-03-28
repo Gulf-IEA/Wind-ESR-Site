@@ -1,0 +1,49 @@
+/* Apply background image to the body */
+body {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D'); /* Replace with your image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Darken Image */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Darken with black and set opacity */
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+div.cell {
+  background-color: #85B9BD;  /* Background color */
+  padding: 10px;  /* Optional: Add padding inside the cell */
+  border-radius: 0px;  /* Optional: Rounded corners */
+  width: 100%;  /* Make the cell full width of its parent container */
+  max-width: 100vw;  /* Ensure it doesn't overflow the viewport */
+  box-sizing: border-box;  /* Ensure padding doesn't add to the total width */
+  margin: 0;  /* Optional: Remove any default margins */
+}
+
+.plotly.html-widget.html-fill-item.html-widget-static-bound.js-plotly-plot {
+  width: 50% !important; /* Set width to 50% of the container or screen */
+  margin: 0 auto; /* Center the plot horizontally */
+}
+
+.article-content {
+    max-width: 800px;  /* Set the maximum width for text content */
+    margin: 0 auto;    /* Center the text content horizontally */
+    padding: 20px;   /* Optional: Add some padding to improve readability */
+}
+
+/* Apply the .article-content class to all headers and paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+    max-width: 800px;  /* Restrict the width of headers and paragraphs */
+    margin: 0 auto;    /* Center them on the page */
+    padding: 20px;   /* Optional padding for better readability */
+}
