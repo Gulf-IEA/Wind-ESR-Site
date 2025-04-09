@@ -4,7 +4,7 @@ $(document).ready(function () {
     // Create the smiley face element if it doesn’t exist
     if ($('.smiley').length === 0) {
         console.log("Creating smiley element...");
-        $('body').append('<div class="smiley">🙂</div>');
+        $('body').append('<div class="smiley">🐟</div>');
         $('.smiley').css({
             fontSize: '30px', // Increase emoji size
             position: 'absolute',
