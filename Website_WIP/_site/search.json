@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "Indicator_Pg_Temp.html",
+    "href": "Indicator_Pg_Temp.html",
+    "title": "Human Dimensions",
+    "section": "",
+    "text": "Intro text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nRecreational Fishing Effort\nDescriptive text here. Interactive figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\n\n\n\nStatic Plot Example\nDescriptive Text Here. Static Figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "objectID": "Indicator_Pg_Temp.html#recreational-fishing-effort",
+    "href": "Indicator_Pg_Temp.html#recreational-fishing-effort",
+    "title": "Indicator_Pg_Temp",
+    "section": "Recreational Fishing Effort",
+    "text": "Recreational Fishing Effort\nDescriptive text here\n\n#Data\nrec_eff&lt;-read.csv(\"../data/humandimensions/RecEffort.csv\")\n\n#Plot\nrec_eff_dat&lt;-data_prep(rec_eff)\n\nplot_fn_obj(rec_eff_dat, interactive = F, manual_ylab = \"Gulf of America 🦅\")"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gulf of America Offshore Wind ESR",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#quarto",
+    "href": "index.html#quarto",
+    "title": "Gulf of America Offshore Wind ESR",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#running-code",
+    "href": "index.html#running-code",
+    "title": "Gulf of America Offshore Wind ESR",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "index.html#banner-test",
+    "href": "index.html#banner-test",
+    "title": "Gulf of America Offshore Wind ESR",
+    "section": "",
+    "text": "“Gulf of America Offshore Wind ESR”\n“Ecosystem Status Report”"
+  }
+]

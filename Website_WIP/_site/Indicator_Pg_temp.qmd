@@ -1,6 +1,16 @@
 ---
 title: "Human Dimensions"
 subtitle: "Website Subpage Test"
+format:
+  html: 
+    page-layout: full
+    css:
+      - css/wip_css.css
+    include-after-body:
+      file: html/footer.html
+execute: 
+  echo: false
+  warning: false
 ---
 
 ```{r lib dat}
@@ -24,7 +34,7 @@ rec_eff<-read.csv("../data/humandimensions/RecEffort.csv")
 #Plot
 rec_eff_dat<-data_prep(rec_eff)
 
-plot_fn_obj(rec_eff_dat, interactive = T, manual_ylab = "Gulf of America 🦅")
+plot_fn_obj(rec_eff_dat, interactive = F, manual_ylab = "Gulf of America 🦅")
 ```
 
 # Static Plot Example
@@ -42,8 +52,7 @@ test<-data.frame(x=rnorm(30, mean = 4),
 
 test<-ggplot(test, aes(x,y, color=cat))+
   geom_point()+
-  geom_line()+
-  labs(y="🧪🎣")
+  geom_line()
 
 test
 ```

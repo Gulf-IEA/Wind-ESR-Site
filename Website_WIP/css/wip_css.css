@@ -1,0 +1,182 @@
+
+/* Header is Page Title & Subtitle */
+/* This text adds a backround image to the header and make the image span the entire screen*/
+	#title-block-header {
+		padding: 8em 0 8em 0 ;
+		width: 100vw;
+		margin-top: 0 !important;
+		margin-left: calc(-1 * ((100vw - 100%) / 2)); /* negate the container padding */
+		background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	
+		#title-block-header h2 {
+			font-size: 1.75em;
+			margin: 0 0 0.5em 0;
+		}
+
+		#title-block-header p {
+			color: inherit;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			top: 0;
+		}
+
+			#title-block-header p a {
+				color: inherit;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			#title-block-header {
+				padding: 10em 0 8em 0 ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#title-block-header {
+				padding: 8em 3em 6em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#title-block-header {
+				padding: 10em 3em 8em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#title-block-header {
+				padding: 5em 3em 3em 3em ;
+			}
+
+				#title-block-header h2 {
+					font-size: 1.25em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+	body.is-mobile #title-block-header {
+		background-attachment: scroll;
+	}
+
+/* Removes space between navbar and heading background image*/
+.navbar {
+  margin-bottom: -2em;
+  padding-bottom: 0;
+  background-color: #1A2954;
+}
+
+/* Change the background color of the main body content*/
+body {
+  background-color: white; /* light gray, or any color you like */
+}
+
+/* Center output in middle of screen*/
+
+.cell-output,
+.cell-output-display,
+.cell-output-stdout,
+.cell-output-stderr,
+.cell-output pre,
+.figure,
+.quarto-figure
+.plotly.html-widget.html-fill-item.html-widget-static-bound.js-plotly-plot {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+/* Footer */
+
+	#footer {
+		padding: 6m 0 4em 0 ;
+		background-color: #1d242a;
+		text-align: center;
+	}
+
+		#footer .icons {
+			font-size: 1.25em;
+		}
+
+			#footer .icons a {
+				color: rgba(255, 255, 255, 0.5);
+			}
+
+				#footer .icons a:hover {
+					color: #fff;
+				}
+
+		#footer .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			letter-spacing: 0.225em;
+			list-style: none;
+			padding: 0;
+			text-transform: uppercase;
+		}
+
+			#footer .copyright li {
+				border-left: solid 1px rgba(255, 255, 255, 0.5);
+				display: inline-block;
+				line-height: 1em;
+				margin-left: 1em;
+				padding-left: 1em;
+			}
+
+				#footer .copyright li:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+				#footer .copyright li a {
+					color: inherit;
+				}
+
+					#footer .copyright li a:hover {
+						color: #fff;
+					}
+
+				@media screen and (max-width: 480px) {
+
+					#footer .copyright li {
+						border: 0;
+						display: block;
+						line-height: 1.65em;
+						margin: 0;
+						padding: 0.5em 0;
+					}
+
+				}
+
+		@media screen and (max-width: 980px) {
+
+			#footer {
+				padding: 4em 3em 2em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
+
