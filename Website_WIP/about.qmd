@@ -1,89 +1,28 @@
 ---
 title: "About"
-format: 
-  html: 
-    page-layout: full
-    css:
-      - css/wip_css.css
-    include-after-body:
-      file: "html/footer.html"
-execute: 
-  echo: false
-  warning: false
+format: html
 ---
 
-```{=html}
-<style>
-  .about-container {
-    max-width: 700px;
-    margin: 1rem auto;
-    padding: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-  }
-  h1, h2 {
-    color: #2c3e50;
-  }
-  .intro {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-  }
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  .skill {
-    background: #3498db;
-    color: white;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 0.9rem;
-  }
-  .contact {
-    margin-top: 2rem;
-    font-size: 1rem;
-  }
-  .contact a {
-    color: #2980b9;
-    text-decoration: none;
-    margin-right: 1rem;
-  }
-  .contact a:hover {
-    text-decoration: underline;
-  }
-</style>
-```
-::: about-container
+
 # About
 
 ## About this Website
 
-::: intro
+
 Explain why this site exists, link out to full report
-:::
 
-## Methods
 
-::: skills
-DPSIR, etc
-
-[JavaScript]{.skill} [HTML & CSS]{.skill} [React]{.skill} [Vue.js]{.skill} [Python]{.skill} [Quarto / Markdown]{.skill} [Data Visualization]{.skill} [Git & GitHub]{.skill}
-:::
 
 ## Conceptual Model
 
+```{=html}
     <iframe src="https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7" width="940" height="600" frameborder="0"></iframe>
+```
+
+
 
 ## Literature
 
 ## Contact Us
 
-::: contact
-Feedback Portal
-:::
-:::
 
-</content> </create_file>

@@ -9,6 +9,9 @@ website:
         text: "Home"
       - href: Indicator_Pg_Temp.qmd
         text: "Human Dimensions"
+      - href: about.qmd
+        text: "About"
+        
     right:
       - text: "BLANKS"
         menu:

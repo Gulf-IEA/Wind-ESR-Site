@@ -40,5 +40,40 @@
     "title": "Gulf of America Offshore Wind ESR",
     "section": "",
     "text": "“Gulf of America Offshore Wind ESR”\n“Ecosystem Status Report”"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Explain why this site exists, link out to full report"
+  },
+  {
+    "objectID": "about.html#about-this-website",
+    "href": "about.html#about-this-website",
+    "title": "About",
+    "section": "",
+    "text": "Explain why this site exists, link out to full report"
+  },
+  {
+    "objectID": "about.html#methods",
+    "href": "about.html#methods",
+    "title": "About",
+    "section": "",
+    "text": "DPSIR, etc\nJavaScript HTML & CSS React Vue.js Python Quarto / Markdown Data Visualization Git & GitHub"
+  },
+  {
+    "objectID": "about.html#conceptual-model",
+    "href": "about.html#conceptual-model",
+    "title": "About",
+    "section": "",
+    "text": "&lt;iframe src=\"https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7\" width=\"940\" height=\"600\" frameborder=\"0\"&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "about.html#contact-us",
+    "href": "about.html#contact-us",
+    "title": "About",
+    "section": "",
+    "text": "Feedback Portal"
   }
 ]
