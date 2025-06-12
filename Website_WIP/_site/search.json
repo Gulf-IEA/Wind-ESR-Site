@@ -75,5 +75,19 @@
     "title": "About",
     "section": "",
     "text": "Feedback Portal"
+  },
+  {
+    "objectID": "man_about.html",
+    "href": "man_about.html",
+    "title": "About",
+    "section": "",
+    "text": "Explain why this site exists, link out to full report"
+  },
+  {
+    "objectID": "man_about.html#about-this-website",
+    "href": "man_about.html#about-this-website",
+    "title": "About",
+    "section": "",
+    "text": "Explain why this site exists, link out to full report"
   }
 ]

@@ -9,7 +9,7 @@ website:
         text: "Home"
       - href: Indicator_Pg_Temp.qmd
         text: "Human Dimensions"
-      - href: about.qmd
+      - href: man_about.qmd
         text: "About"
         
     right:
