@@ -8,6 +8,10 @@ website:
       - href: index.qmd
         text: "Home"
       - href: Indicator_Pg_Temp.qmd
+        text: "Biological"
+      - href: Indicator_Pg_Temp.qmd
+        text: "Physical/Chemical"
+      - href: Indicator_Pg_Temp.qmd
         text: "Human Dimensions"
       - href: man_about.qmd
         text: "About"

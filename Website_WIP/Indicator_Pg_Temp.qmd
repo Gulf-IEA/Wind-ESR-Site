@@ -9,10 +9,10 @@ library(IEAnalyzeR)
 
 ```
 
-Intro text here. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Intro text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 # Recreational Fishing Effort
+
 Descriptive text here. Interactive figure.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -24,11 +24,14 @@ rec_eff<-read.csv("../data/humandimensions/RecEffort.csv")
 #Plot
 rec_eff_dat<-data_prep(rec_eff)
 
-plot_fn_obj(rec_eff_dat, interactive = T, manual_ylab = "Gulf of America 🦅")
+plot_fn_obj(rec_eff_dat, interactive = T, manual_ylab = "Gulf of America 🦅", manual_title = "Recreational Effort")
+
 ```
 
+
 # Static Plot Example
-Descriptive Text Here. Static Figure. 
+
+Descriptive Text Here. Static Figure.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
