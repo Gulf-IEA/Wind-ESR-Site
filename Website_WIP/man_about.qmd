@@ -3,29 +3,37 @@ title: "About"
 format: html
 ---
 
-
 # About
 
 ## About this Website
-
 
 Explain why this site exists, link out to full report
 
 ## Methods
 
-DPSIR etc.
+### DPSIR
 
+DPSIR etc. Could recreate as an interactive figure that gives additional information upon hover.
+
+![DPSIR Placeholder Image](https://farm1.staticflickr.com/698/32236252251_e2f4231417_o.jpg){fig-align="center"}
+
+### Other Groups
+
+-   Ask group what fits here
 
 ## Conceptual Model
 
+TEXT ABOUT MODEL AND KUMU
+
 ```{=html}
-    <iframe src="https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7" width="940" height="600" frameborder="0"></iframe>
+    <iframe src="https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7" width="1200" height="600" style="border:2px solid #1A2954;" ></iframe>
 ```
-
-
-
 ## Literature
+
+Pages that we mention here like DPSIR paper etc.
 
 ## Contact Us
 
+-   Point of Contacts
 
+-   Feedback Form

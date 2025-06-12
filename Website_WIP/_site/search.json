@@ -1,87 +1,10 @@
 [
   {
-    "objectID": "Indicator_Pg_Temp.html",
-    "href": "Indicator_Pg_Temp.html",
-    "title": "Human Dimensions",
-    "section": "",
-    "text": "Intro text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nRecreational Fishing Effort\nDescriptive text here. Interactive figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\n\n\n\nStatic Plot Example\nDescriptive Text Here. Static Figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  },
-  {
-    "objectID": "Indicator_Pg_Temp.html#recreational-fishing-effort",
-    "href": "Indicator_Pg_Temp.html#recreational-fishing-effort",
-    "title": "Indicator_Pg_Temp",
-    "section": "Recreational Fishing Effort",
-    "text": "Recreational Fishing Effort\nDescriptive text here\n\n#Data\nrec_eff&lt;-read.csv(\"../data/humandimensions/RecEffort.csv\")\n\n#Plot\nrec_eff_dat&lt;-data_prep(rec_eff)\n\nplot_fn_obj(rec_eff_dat, interactive = F, manual_ylab = \"Gulf of America 🦅\")"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Gulf of America Offshore Wind ESR",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "index.html#quarto",
-    "href": "index.html#quarto",
-    "title": "Gulf of America Offshore Wind ESR",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "index.html#running-code",
-    "href": "index.html#running-code",
-    "title": "Gulf of America Offshore Wind ESR",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
-  },
-  {
-    "objectID": "index.html#banner-test",
-    "href": "index.html#banner-test",
-    "title": "Gulf of America Offshore Wind ESR",
-    "section": "",
-    "text": "“Gulf of America Offshore Wind ESR”\n“Ecosystem Status Report”"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Explain why this site exists, link out to full report"
-  },
-  {
-    "objectID": "about.html#about-this-website",
-    "href": "about.html#about-this-website",
-    "title": "About",
-    "section": "",
-    "text": "Explain why this site exists, link out to full report"
-  },
-  {
-    "objectID": "about.html#methods",
-    "href": "about.html#methods",
-    "title": "About",
-    "section": "",
-    "text": "DPSIR, etc\nJavaScript HTML & CSS React Vue.js Python Quarto / Markdown Data Visualization Git & GitHub"
-  },
-  {
-    "objectID": "about.html#conceptual-model",
-    "href": "about.html#conceptual-model",
-    "title": "About",
-    "section": "",
-    "text": "&lt;iframe src=\"https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7\" width=\"940\" height=\"600\" frameborder=\"0\"&gt;&lt;/iframe&gt;"
-  },
-  {
-    "objectID": "about.html#contact-us",
-    "href": "about.html#contact-us",
-    "title": "About",
-    "section": "",
-    "text": "Feedback Portal"
-  },
-  {
     "objectID": "man_about.html",
     "href": "man_about.html",
     "title": "About",
     "section": "",
-    "text": "Explain why this site exists, link out to full report"
+    "text": "Explain why this site exists, link out to full report\n\n\n\n\n\nDPSIR etc. Could recreate as an interactive figure that gives additional information upon hover.\n\n\n\nDPSIR Placeholder Image\n\n\n\n\n\n\nAsk group what fits here\n\n\n\n\n\nTEXT ABOUT MODEL AND KUMU\n    \n\n\n\nPages that we mention here like DPSIR paper etc.\n\n\n\n\nPoint of Contacts\nFeedback Form"
   },
   {
     "objectID": "man_about.html#about-this-website",
@@ -89,5 +12,47 @@
     "title": "About",
     "section": "",
     "text": "Explain why this site exists, link out to full report"
+  },
+  {
+    "objectID": "man_about.html#methods",
+    "href": "man_about.html#methods",
+    "title": "About",
+    "section": "",
+    "text": "DPSIR etc. Could recreate as an interactive figure that gives additional information upon hover.\n\n\n\nDPSIR Placeholder Image\n\n\n\n\n\n\nAsk group what fits here"
+  },
+  {
+    "objectID": "man_about.html#conceptual-model",
+    "href": "man_about.html#conceptual-model",
+    "title": "About",
+    "section": "",
+    "text": "TEXT ABOUT MODEL AND KUMU"
+  },
+  {
+    "objectID": "man_about.html#literature",
+    "href": "man_about.html#literature",
+    "title": "About",
+    "section": "",
+    "text": "Pages that we mention here like DPSIR paper etc."
+  },
+  {
+    "objectID": "man_about.html#contact-us",
+    "href": "man_about.html#contact-us",
+    "title": "About",
+    "section": "",
+    "text": "Point of Contacts\nFeedback Form"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gulf of America Offshore Wind ESR",
+    "section": "",
+    "text": "To Add to Header\n\n\n\nLink to main ESR. Mabye side scroll of main Gulf ESR Products\n\n\n\nIEA Process\nNational Oceanic and Atmospheric Administration (NOAA) Integrated Ecosystem Assessments (IEA) are an approach to Ecosystem-Based Management. This approach integrates all components of an ecosystem, including humans, into the decision-making process so that managers can balance trade-offs and determine what is more likely to achieve their desired goals. The IEA approach is a NOAA-wide initiative that provides a consistent national framework but is also flexible to accommodate regional needs.It is overseen by the IEA program, which directs the execution of Integrated Ecosystem Assessments within five regions in the United States ocean and coastal ecosystems.\n\n\nWhy Wind ESR?\nThe forthcoming development of offshore wind energy infrastructure in the Gulf of Mexico is expected to result in wide-scale impacts on the hydrology, ecology, socioeconomics, and culture of the Gulf ecosystem. NOAA’s Gulf of Mexico Integrated Ecosystem Assessment Program has a stated goal of “using the IEA framework to inform renewable energy and aquaculture planning in the Gulf of Mexico” by “creat[ing] community, ecological, and fishery baselines to assess potential effects of new ocean uses such as wind and aquaculture.” This project serves to meet that overarching goal by establishing transdisciplinary teams of scientists, policymakers and regulatory participants, and other stakeholders to explore and assess the potential effects of offshore wind energy infrastructure in a holistic and iterative manner.\n\n\nMain Takeaways/Notable Somethings"
+  },
+  {
+    "objectID": "Indicator_Pg_Temp.html",
+    "href": "Indicator_Pg_Temp.html",
+    "title": "Human Dimensions",
+    "section": "",
+    "text": "Intro text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nRecreational Fishing Effort\nDescriptive text here. Interactive figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\n\n\n\nStatic Plot Example\nDescriptive Text Here. Static Figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }
 ]

@@ -5,21 +5,23 @@ website:
   title: "Wind IEA WIP Website"
   navbar:
     left:
-      - href: index.qmd
-        text: "Home"
-      - href: Indicator_Pg_Temp.qmd
-        text: "Biological"
-      - href: Indicator_Pg_Temp.qmd
-        text: "Physical/Chemical"
-      - href: Indicator_Pg_Temp.qmd
-        text: "Human Dimensions"
-      - href: man_about.qmd
-        text: "About"
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: man_about.qmd
+      - text: "Biological"
+        href: Indicator_Pg_Temp.qmd
+      - text: "Physical/Chemical"
+        href: Indicator_Pg_Temp.qmd
+      - text: "Human Dimensions"
+        href: Indicator_Pg_Temp.qmd
+
         
     right:
-      - text: "BLANKS"
+      - text: "Other Resources"
         menu:
-          - text: "page a"
+          - text: "IEA Homepage"
+            href: https://www.integratedecosystemassessment.noaa.gov/regions/gulf-mexico
           - text: "page b"
           - text: "page c"
     tools:

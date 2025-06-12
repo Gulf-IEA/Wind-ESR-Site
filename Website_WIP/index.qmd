@@ -4,25 +4,19 @@ subtitle: "Ecosystem Status Report"
 format: html
 ---
 
+::: {.callout-tip title="To Add to Header"}
+Link to main ESR.
+Mabye side scroll of main Gulf ESR Products
+:::
+
+# IEA Process
+National Oceanic and Atmospheric Administration (NOAA) Integrated Ecosystem Assessments (IEA) are an approach to Ecosystem-Based Management. This approach integrates all components of an ecosystem, including humans, into the decision-making process so that managers can balance trade-offs and determine what is more likely to achieve their desired goals. The IEA approach is a NOAA-wide initiative that provides a consistent national framework but is also flexible to accommodate regional needs.It is overseen by the IEA program, which directs the execution of Integrated Ecosystem Assessments within five regions in the United States ocean and coastal ecosystems.
+
+# Why Wind ESR?
+
+The forthcoming development of offshore wind energy infrastructure in the Gulf of Mexico is expected to result in wide-scale impacts on the hydrology, ecology, socioeconomics, and culture of the Gulf ecosystem. NOAA’s Gulf of Mexico Integrated Ecosystem Assessment Program has a stated goal of “using the IEA framework to inform renewable energy and aquaculture planning in the Gulf of Mexico” by “creat[ing] community, ecological, and fishery baselines to assess potential effects of new ocean uses such as wind and aquaculture.” This project serves to meet that overarching goal by establishing transdisciplinary teams of scientists, policymakers and regulatory participants, and other stakeholders to explore and assess the potential effects of offshore wind energy infrastructure in a holistic and iterative manner.
+
+# Main Takeaways/Notable Somethings
 
 
-## Quarto
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this 
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
