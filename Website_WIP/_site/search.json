@@ -54,5 +54,75 @@
     "title": "Human Dimensions",
     "section": "",
     "text": "Intro text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nRecreational Fishing Effort\nDescriptive text here. Interactive figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\n\n\n\nStatic Plot Example\nDescriptive Text Here. Static Figure.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html",
+    "href": "Hum_Dim_Inds.html",
+    "title": "Human Dimensions",
+    "section": "",
+    "text": "HUMAN DIMENSION BLURB"
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#commercial-fishing",
+    "href": "Hum_Dim_Inds.html#commercial-fishing",
+    "title": "Human Dimensions",
+    "section": "Commercial Fishing",
+    "text": "Commercial Fishing\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#recreational-effort",
+    "href": "Hum_Dim_Inds.html#recreational-effort",
+    "title": "Human Dimensions",
+    "section": "Recreational Effort",
+    "text": "Recreational Effort\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#recreational-fishing",
+    "href": "Hum_Dim_Inds.html#recreational-fishing",
+    "title": "Human Dimensions",
+    "section": "Recreational Fishing",
+    "text": "Recreational Fishing\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#energy-prices",
+    "href": "Hum_Dim_Inds.html#energy-prices",
+    "title": "Human Dimensions",
+    "section": "Energy Prices",
+    "text": "Energy Prices\n\n\n\n\n\n\nWarning\n\n\n\nThese data had commas in the values. Will work on adding comma removal as part of IEAnalyzeR to avoid these issues.\n\n\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#energy-consumption",
+    "href": "Hum_Dim_Inds.html#energy-consumption",
+    "title": "Human Dimensions",
+    "section": "Energy Consumption",
+    "text": "Energy Consumption\n\n\n\n\n\n\nWarning\n\n\n\nCurrently not working do to data issues.\n\n\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#housing-tenure",
+    "href": "Hum_Dim_Inds.html#housing-tenure",
+    "title": "Human Dimensions",
+    "section": "Housing Tenure",
+    "text": "Housing Tenure\nScales make it hard to share axis in any extent X unit mix so sublabels were used."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#water-dependent-economy",
+    "href": "Hum_Dim_Inds.html#water-dependent-economy",
+    "title": "Human Dimensions",
+    "section": "Water Dependent Economy",
+    "text": "Water Dependent Economy\n\n\n\n\n\n\nWarning\n\n\n\nData problem, not sure what though.\n\n\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#google-trends",
+    "href": "Hum_Dim_Inds.html#google-trends",
+    "title": "Human Dimensions",
+    "section": "Google Trends",
+    "text": "Google Trends\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "Hum_Dim_Inds.html#public-engagements",
+    "href": "Hum_Dim_Inds.html#public-engagements",
+    "title": "Human Dimensions",
+    "section": "Public Engagements",
+    "text": "Public Engagements\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
   }
 ]

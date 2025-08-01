@@ -1,0 +1,27 @@
+.cell-output,
+.cell-output-display,
+.cell-output-stdout,
+.cell-output-stderr,
+.cell-output pre,
+
+
+
+```{=html}
+    <iframe src="https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7" width="1200" height="600" style="border:2px solid #1A2954;" ></iframe>
+```
+
+
+## ALL OF IMAGE IN CSS
+/* Center output in middle of screen*/
+
+.cell-output,
+.cell-output-display,
+.cell-output-stdout,
+.cell-output-stderr,
+.cell-output pre,
+.quarto-figure.plotly.html-widget.html-fill-item.html-widget-static-bound.js-plotly-plot {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

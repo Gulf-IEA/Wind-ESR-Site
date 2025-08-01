@@ -14,7 +14,7 @@ website:
       - text: "Physical/Chemical"
         href: Indicator_Pg_Temp.qmd
       - text: "Human Dimensions"
-        href: Indicator_Pg_Temp.qmd
+        href: Hum_Dim_Inds.qmd
 
         
     right:
