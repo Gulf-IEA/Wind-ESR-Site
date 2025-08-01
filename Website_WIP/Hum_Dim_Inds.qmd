@@ -1,6 +1,7 @@
 ---
 title: "Human Dimensions"
 format: html
+lightbox: true
 ---
 
 ```{r library, echo=F}
@@ -93,7 +94,9 @@ Scales make it hard to share axis in any extent X unit mix so sublabels were use
 ```{r}
 df<-IEAnalyzeR::data_prep(df="../data/humandimensions/HousingTenure.csv", subind = "extent")
 
-IEAnalyzeR::plot_fn_obj(df, ylab_sublabel = c("extent", "unit"), manual_ylab = NA, trend = T)
+IEAnalyzeR::plot_fn_obj(df, ylab_sublabel = c("extent", "unit"), trend = T, )
+# IEAnalyzeR::plot_fn_obj(df, facet_grid = c("extent", "unit"), manual_ylab = NA)
+
 ```
 
 ## Water Dependent Economy
@@ -103,11 +106,11 @@ Data problem, not sure what though.
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 ```{r, eval=F}
 # df<-IEAnalyzeR::data_prep(df="../data/humandimensions/WaterDependentEcon.csv")
-test<-read.csv("../data/humandimensions/WaterDependentEcon.csv", check.names = F, na.strings = c("", " "), )
+test<-read.csv("../data/humandimensions/WaterDependentEcon.csv", check.names = F, na.strings = c("", " "))
 # 
 # #Remove empty columns/rows
-# test<-test[, colSums(is.na(test)) != nrow(test)]
-# test<-test[rowSums(is.na(test)) != ncol(test), ]
+test<-test[, colSums(is.na(test)) != nrow(test)]
+test<-test[rowSums(is.na(test)) != ncol(test), ]
 
 
 IEAnalyzeR::plot_fn_obj(df)
