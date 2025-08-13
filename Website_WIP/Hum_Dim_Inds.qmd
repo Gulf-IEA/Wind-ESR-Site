@@ -6,12 +6,44 @@ lightbox: true
 
 ```{r library, echo=F}
 library(IEAnalyzeR)
+library(tidyverse)
+library(gt)
 
-# devtools::install_git("https://github.com/Gulf-IEA/IEAnalyzeR")
+devtools::install_git("https://github.com/Gulf-IEA/IEAnalyzeR")
+# devtools::install_git("https://github.com/Gulf-IEA/IEAnalyzeR", branch = "Carissa-add-table-function")
 ```
 
 
 HUMAN DIMENSION BLURB
+
+# Status & Trends Summary
+
+```{r}
+table<-create_trend_table("../data/humandimensions/", include_gt = F)
+
+
+table$sec_titles<-c(rep("#commercial-fishing",3),
+              rep("#google-trends", 2),
+              rep("#housing-tenure", 4),
+              rep("#public-engagements",1),
+              rep("#recreational-effort",1))
+
+
+# table$Indicator<-paste0("<a href='#energy-prices'>Commercial Landings</a>")
+table$Indicator<-paste0("<a href=",table$sec_titles,">",table$Indicator,"</a>")
+# table$sec_titles<-NULL
+
+table %>%  gt() %>% 
+  fmt_markdown(columns = "Indicator") %>% 
+  gtExtras::gt_theme_pff() %>%
+  tab_style(style = list(cell_fill(color="#1A2954")),
+            locations = cells_column_labels(everything())) %>%  
+  cols_hide(columns = c("sec_titles",
+                        "Mean",
+                        "SD"))
+
+
+```
 
 
 # Commercial
