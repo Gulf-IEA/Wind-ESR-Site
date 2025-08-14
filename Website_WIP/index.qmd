@@ -5,18 +5,28 @@ format: html
 ---
 
 ::: {.callout-tip title="To Add to Header"}
-Link to main ESR.
-Mabye side scroll of main Gulf ESR Products
+Link to main Gulf ESRs(?).
+Maybe side scroll of main Gulf ESR Products
 :::
 
+# Welcome to the NOAA Gulf of America Wind Ecosystem Status Report
+
+## Please use the menu at the top of the page to explore indicators and methods.
+
 # IEA Process
+
 National Oceanic and Atmospheric Administration (NOAA) Integrated Ecosystem Assessments (IEA) are an approach to Ecosystem-Based Management. This approach integrates all components of an ecosystem, including humans, into the decision-making process so that managers can balance trade-offs and determine what is more likely to achieve their desired goals. The IEA approach is a NOAA-wide initiative that provides a consistent national framework but is also flexible to accommodate regional needs.It is overseen by the IEA program, which directs the execution of Integrated Ecosystem Assessments within five regions in the United States ocean and coastal ecosystems.
 
 # Why Wind ESR?
 
-The forthcoming development of offshore wind energy infrastructure in the Gulf of Mexico is expected to result in wide-scale impacts on the hydrology, ecology, socioeconomics, and culture of the Gulf ecosystem. NOAA’s Gulf of Mexico Integrated Ecosystem Assessment Program has a stated goal of “using the IEA framework to inform renewable energy and aquaculture planning in the Gulf of Mexico” by “creat[ing] community, ecological, and fishery baselines to assess potential effects of new ocean uses such as wind and aquaculture.” This project serves to meet that overarching goal by establishing transdisciplinary teams of scientists, policymakers and regulatory participants, and other stakeholders to explore and assess the potential effects of offshore wind energy infrastructure in a holistic and iterative manner.
+The prospective future development of offshore wind energy infrastructure in the Gulf of America may result in wide-scale impacts on the hydrology, ecology, socioeconomics, and culture of the Gulf ecosystem. NOAA’s Gulf of America Integrated Ecosystem Assessment Program has a stated goal of “using the IEA framework to inform renewable energy and aquaculture planning in the Gulf of America [sic]” by “creat[ing] community, ecological, and fishery baselines to assess potential effects of new ocean uses such as wind and aquaculture.” This project serves to meet that overarching goal by establishing transdisciplinary teams of scientists, policymakers and regulatory participants, and other stakeholders to explore and assess the potential effects of offshore wind energy infrastructure in a holistic and iterative manner.
 
 # Main Takeaways/Notable Somethings
+- Put the Main
+- Points from the ESR
+- Here when we have them
 
+#Full Report
+A link to the full report will be here
 
 

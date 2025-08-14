@@ -7,33 +7,55 @@ format: html
 
 ## About this Website
 
-Explain why this site exists, link out to full report
+NOAA’s Gulf of America Integrated Ecosystem Assessment Program has a stated goal of “using the IEA framework to inform renewable energy and aquaculture planning in the Gulf of America [sic]” by “creat[ing] community, ecological, and fishery baselines to assess potential effects of new ocean uses such as wind and aquaculture.” This project serves to meet that overarching goal by establishing transdisciplinary teams of scientists, policymakers and regulatory participants, and other stakeholders to explore and assess the potential effects of offshore wind energy infrastructure in a holistic and iterative manner.
+
+This website aims to serve the key indicators, methods, and source data related to this effort in a clear, publicly-accessible, and up-to-date way.
 
 ## Methods
 
+### Concept
+
+This project was designed as a stakeholder-driven report - the motivation, methods, and data for this effort have been partially conceptualized by an external Advisory Team of scientists, community members, or otherwise interested parties in the Gulf. To begin the indicator selection process, a literature review of relevant Gulf and offshore wind materials was conducted. Following that process, conversations were had with over 75 selected stakeholders and interested parties using a semi-structured framework: through these conversations, mental models of each interaction were constructed using the Mental Modeler software.The semi-structured framework included questions about expected impacts of each phase of OSW development (construction, operation, decommissioning) as well as unfounded perceptions and possible management responses related to these impacts.
+
 ### DPSIR
 
-DPSIR etc. Could recreate as an interactive figure that gives additional information upon hover.
+Responses were organized in Mental Modeler using the DPSIR Framework (EEA, 1999). DPSIR stands for Driver-Pressure-State-Impact-Response - as respondents provided answers to each question and shared their thoughts about OSW development and it's percieved impacts on Gulf Biology, Physical and Chemical characteristics, and Human Dimensions, concepts and relationships were identified and sorted into DPSIR categories.
 
 ![DPSIR Placeholder Image](https://farm1.staticflickr.com/698/32236252251_e2f4231417_o.jpg){fig-align="center"}
 
-### Other Groups
+### Conceptual Simplification
 
--   Ask group what fits here
+::: {.callout-tip title="To Add to Header"}
+Embed clickable  plots
+:::
 
-## Conceptual Model
+### Conceptual Model
 
-TEXT ABOUT MODEL AND KUMU
+The simplified DPSIR nodes and relationships were migrated to Kumu, a conceptual visualization software, and displayed as a conceptual model that reprsents a combination of stakeholder perceptions and literary takeaways related to the primary impacts of offshore wind developement in the Gulf. 
+
+The full model can be viewed below.
 
 ```{=html}
     <iframe src="https://embed.kumu.io/e601ebcaeaa52f7396f77d01095ef3e7" width="1200" height="600" style="border:2px solid #1A2954;" ></iframe>
 ```
+
+### Indicator Selection
+
+After the conceptual model was shared with and approved by the stakeholder Advisory Group, Social Network Analysis metrics were used to determine the primary concepts and relationships in the model - specifically, betweenness, degree and indegree, and MICMAC were measured. These metrics were used to whittle the initial list of concepts. Once the list was shortened, the project and stakeholder teams considered a number of factors, including Theoretical Soundness, Utility, Importance, Data Quality, and Feasibility, ranking the remaining concepts on each. As a result, 23 concepts were selected, and the project team began to work with internal and external subject matter experts to identify relevant metrics and data to represent each.
+
+### Moving Forward
+
+This project process is designed to be cyclical and repeatable, and the project team hopes to repeat the stakeholder engagement, indicator selection, and indicator update processes if OSW continues to mature in the region.
+
 ## Literature
 
-Pages that we mention here like DPSIR paper etc.
+European Environment Agency. (1999). Environmental indicators: Typology and overview (Technical report No. 25/1999). Copenhagen: European Environment Agency.
+
 
 ## Contact Us
 
--   Point of Contacts
+For questions, comments or concerns, please contact Willem Klajbor at willem.klajbor@noaa.gov
 
--   Feedback Form
+::: {.callout-tip title="To Add to Header"}
+Create Feedback form
+:::
